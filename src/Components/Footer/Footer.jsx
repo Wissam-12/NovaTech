@@ -20,12 +20,22 @@ const Footer = () => {
                 <img src={nova} alt="Novatech"/>
             </div>
             <h1>Contactez nous</h1>
-            <p>Contactez-nous par email contact@dziyara.dz ou sur nos réseaux sociaux</p>
+            <div className="madeWith made">
+                <div className="inline">
+                    <p>Contactez-nous par email</p>
+                    <h4>contact@dziyara.dz</h4>
+                </div>
+                <p>ou sur nos réseaux sociaux</p>
+            </div>
             <div className="contacts">
-                <FaGlobe size="40"/>
-                <FaFacebook size="40"/>
-                <FaLinkedin size="40"/>
-                <FaTwitter size="40"/>
+                <div className="mini">
+                    <FaGlobe size="40"/>
+                    <FaFacebook size="40"/>
+                </div>
+                <div className="mini">
+                    <FaLinkedin size="40"/>
+                    <FaTwitter size="40"/>
+                </div>
             </div>
         </div>
     )
