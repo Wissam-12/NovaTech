@@ -5,6 +5,7 @@ const News = ({eventList}) => {
     return (
         <div className="news">
             <h1>Actualités du moment</h1>
+            <div className="filler"></div>
             <div className="Carousel">
                 <Carousel >
                     {

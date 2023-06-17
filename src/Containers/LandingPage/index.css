@@ -50,6 +50,10 @@
     gap: 50px;
   }
 
+  .filler{
+    height: 40px;
+  }
+
   .links{
     display: flex;
     flex-direction: row;
@@ -212,4 +216,13 @@
   button.rec-arrow{
     background-color: rgba(180, 211, 129, 0.3);
     color: #000000;
+  }
+
+  .about{
+    text-align: center;
+    padding-left: 300px;
+    padding-right: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
   }

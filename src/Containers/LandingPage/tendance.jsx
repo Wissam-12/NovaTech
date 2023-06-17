@@ -6,6 +6,7 @@ const Tendance = ({placeList}) => {
     return (
         <div className="tendance">
             <h1>Lieux tendance</h1>
+            <div className="filler"></div>
             <div className="Carousel">
                 <Carousel itemsToShow={3}>
                     {

@@ -4,6 +4,8 @@ import './index.css';
 import Home from './home.jsx'
 import News from './news.jsx'
 import Tendance from "./tendance.jsx";
+import About from "./about.jsx";
+import Footer from "../../Components/Footer/Footer.jsx";
 
 const LandingPage = () => {
     const events = [
@@ -78,6 +80,8 @@ const LandingPage = () => {
             <Home/>
             <News eventList={events}/>
             <Tendance placeList={places}/>
+            <About/>
+            <Footer/>
         </div>
     )
 }
