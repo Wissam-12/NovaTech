@@ -170,18 +170,22 @@
   }
 
   .tendance .imageContainer {
+
     height: 360px;
     width: 300px;
     background-color: #B4D381;
     border-radius: 26px;
+    margin-bottom: 10px;
   }
 
   .tendance img{
-    width: 80%;
-    height: 100%;
+    margin: auto;
+    width: 120%;
+    height: auto;
     max-height: auto;
     border-radius: 26px;
     object-fit: contain;
+    box-shadow: 0px 10px 4px 0px rgba(0, 0, 0, 0.1);
   }
 
   .tendance .titre{
@@ -228,23 +232,38 @@
     gap: 40px;
   }
 
-  @media screen and (max-width: 880px){
-  
+  @media screen and (max-width: 1200px){
+ 
   }
 
   @media screen and (max-width: 768px){
     p {
-      font-size: 12px;
+      font-size: 14px;
     }
     h1{
-      font-size: 24px;
+      font-size: 30px;
     }
   }
 
   @media screen and (max-width: 540px){
+    .Landing{
+      padding: 20px;
+    }
+
+    .Carousel .titre{
+      font-size: 14px;
+    }
     
     .about{
       padding-left: 10px;
       padding-right: 10px;
+    }
+
+    button.rec-arrow{
+      display: none;
+    }
+
+    .tendance button.rec-dot{
+      display: block;
     }
   }
