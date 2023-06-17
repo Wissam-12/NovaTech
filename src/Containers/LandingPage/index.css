@@ -162,6 +162,30 @@
     height: 1px;
     background-color: white;
   }
+
+  .tendance .imageContainer {
+    height: 360px;
+    width: 300px;
+    background-color: #B4D381;
+    border-radius: 26px;
+  }
+
+  .tendance img{
+    width: 80%;
+    height: 100%;
+    max-height: auto;
+    border-radius: 26px;
+    object-fit: contain;
+  }
+
+  .tendance .titre{
+    font-weight: 500;
+    font-size: 26px;
+  }
+
+  .tendance button.rec-dot{
+    display: none;
+  }
   
   .eventInfos .titre{
     font-size: 28px;

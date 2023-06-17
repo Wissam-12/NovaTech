@@ -1,21 +1,18 @@
 import React from "react";
 import Carousel from "react-elastic-carousel";
 
-const Tendance = ({eventList}) => {
+const Tendance = ({placeList}) => {
+    
     return (
         <div className="tendance">
             <h1>Lieux tendance</h1>
             <div className="Carousel">
-                <Carousel >
+                <Carousel itemsToShow={3}>
                     {
-                        eventList.map((event) =>(
-                            <div className="new">
-                                <img src={event.image} alt={event.name}/>
-                                <div className="eventInfos">
-                                    <div className="titre">{event.name}</div>
-                                    <div className="line"></div>
-                                    <div>{event.description}</div>
-                                </div>
+                        placeList.map((place) =>(
+                            <div className="one">
+                                <div className="imageContainer"><img src={place.image} alt={place.name}/></div>
+                                <div className="titre">{place.name}</div>
                             </div>
                         ))
                     }
