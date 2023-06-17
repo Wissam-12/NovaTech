@@ -75,13 +75,15 @@ const LandingPage = () => {
 
       
     return(
-        <div className="Landing">
+        <div>
             <NavBar/>
-            <Home/>
-            <News eventList={events}/>
-            <Tendance placeList={places}/>
-            <About/>
-            <Footer/>
+            <div className="Landing">
+                <Home/>
+                <News eventList={events}/>
+                <Tendance placeList={places}/>
+                <About/>
+                <Footer/>
+            </div>
         </div>
     )
 }
